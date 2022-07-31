@@ -146,3 +146,92 @@ color:	#7A72FF;
 .iconarea a:hover .fa-youtube{
     color: red;
 }
+body{
+    background-color: aqua;
+}
+
+.ProductSection{
+    width: 85%;    
+    margin: 30px auto;
+    margin-top: -60px;
+    position: relative;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.9);
+    background-size: 1000px;
+    border-radius: 10px;
+    padding: 40px 22px;
+}
+h3{
+    font-family: myriad pro;
+    background-color: rgb(255, 255, 255);
+    font-size: 2rem;
+    letter-spacing: 2px;
+    margin: 20px;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.05);
+    text-align: center;
+    color:#323543;
+    font-weight: 700;
+}
+.product{
+    width: 100%;
+    background-color: rgb(75, 75, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+}
+.productbox{
+    background-color: rgb(36, 212, 212);
+    width: 250px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    position: relative;
+    margin: 10px 30px;
+}
+.productbox img{
+    width: 180px;
+}
+.productbox p{
+    letter-spacing: 0.5px;
+    font-size: 0.8rem;
+    font-family: myriad pro;
+}
+.productbox .dollar{
+    text-decoration: none;
+    color: red;
+    font-size: 1rem;
+    font-family: poppins;
+}
+.Buybtn{
+    width: 140px;
+    height: 40px;
+    background-color: #58f158;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -15px;
+    border-radius: 15% / 50%;
+    color: rgb(204, 0, 255);
+    display: none;
+    animation: fade 0.2s;
+}
+.productbox:hover .Buybtn{
+    display: flex;
+    color: #fff;
+	transition: all ease 0.2s;
+}
+.productbox:hover{
+    box-shadow: 2px 2px 30px rgba(243, 4, 4, 0.5);
+    background-color: rgb(0, 255, 255);
+}
